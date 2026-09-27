@@ -66,7 +66,7 @@ This plugin connects to the **Postali API** (https://postali.app), an external s
 * **From the customer's browser**, on the checkout page and on My Account > Addresses: when the country is Mexico and the customer types a 5-digit postal code, the browser requests `https://postali.app/api/v1/mx/cp/{postal code}`. Only the postal code is sent, as part of the URL. As with any web request, the service also receives the customer's IP address and browser user agent. No name, street, email, phone or order data is sent. The request is made without cookies.
 * **From the store's server**, only if "Validación en el servidor" is enabled: when an order with a Mexican address is placed, WordPress requests the same URL with that address's postal code. Only the postal code is sent; the response is cached for one week.
 
-The service is provided by Postali. API terms of use: https://postali.app/api — Documentation: https://postali.app/api/docs
+The service is provided by Postali. Terms of use: https://postali.app/terminos — Privacy policy: https://postali.app/privacidad — Documentation: https://postali.app/api/docs
 
 Postal code data comes from SEPOMEX (Servicio Postal Mexicano).
 
