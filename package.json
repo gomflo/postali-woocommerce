@@ -1,0 +1,12 @@
+{
+  "name": "postali-codigos-postales",
+  "private": true,
+  "description": "Herramientas de desarrollo del plugin (no se distribuyen).",
+  "license": "GPL-2.0-or-later",
+  "scripts": {
+    "test": "node --test tests/js",
+    "test:live": "POSTALI_LIVE=1 node --test tests/js",
+    "playground": "npx @wp-playground/cli@latest server --port=9400 --login --mount=./postali-codigos-postales:/wordpress/wp-content/plugins/postali-codigos-postales --mount=./tests/e2e:/setup --blueprint=./tests/e2e/blueprint.json",
+    "zip": "rm -f postali-codigos-postales.zip && zip -rq postali-codigos-postales.zip postali-codigos-postales -x '*.DS_Store'"
+  }
+}

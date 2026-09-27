@@ -1,0 +1,55 @@
+/*
+ * Postali — estilos mínimos. Heredan tipografía y colores del tema; sólo se
+ * fija lo necesario para que el select ocupe el ancho del campo.
+ */
+.postali-cp-hidden {
+	display: none !important;
+}
+
+.postali-cp-picker {
+	display: block;
+	width: 100%;
+}
+
+.postali-cp-picker select.postali-cp-select {
+	width: 100%;
+	min-height: 2.5em;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+.postali-cp-picker .postali-cp-select + .postali-cp-credit,
+.postali-cp-credit {
+	display: block;
+	margin-top: 0.25em;
+	font-size: 0.75em;
+	opacity: 0.75;
+}
+
+.postali-cp-status {
+	display: block;
+	margin-top: 0.25em;
+	font-size: 0.85em;
+}
+
+.postali-cp-status[data-kind="loading"] {
+	opacity: 0.7;
+}
+
+/* Checkout de bloques: el select usa el marcado de WooCommerce y hereda sus estilos. */
+.postali-cp-blocks {
+	flex: 0 0 100%;
+	box-sizing: border-box;
+	width: 100%;
+	margin-top: 16px;
+}
+
+.postali-cp-blocks .wc-blocks-components-select {
+	margin-top: 0;
+}
+
+/* Con una colonia elegida de la lista, se oculta el campo de texto duplicado. */
+.wc-block-components-address-form:has(.postali-cp-blocks[data-postali-hide-text]) .wc-block-components-address-form__address_2,
+.wc-block-components-address-form:has(.postali-cp-blocks[data-postali-hide-text]) .wc-block-components-address-form__postali-colonia {
+	display: none;
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "landingPage": "/checkout-clasico/",
+  "features": { "networking": true },
+  "steps": [
+    { "step": "installPlugin", "pluginData": { "resource": "wordpress.org/plugins", "slug": "woocommerce" }, "options": { "activate": true } },
+    { "step": "installPlugin", "pluginData": { "resource": "wordpress.org/plugins", "slug": "plugin-check" }, "options": { "activate": false } },
+    { "step": "activatePlugin", "pluginPath": "postali-codigos-postales/postali-codigos-postales.php" },
+    { "step": "runPHP", "code": "<?php require '/setup/setup.php';" }
+  ]
+}

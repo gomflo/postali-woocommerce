@@ -1,0 +1,171 @@
+# Copyright (C) 2026 Postali
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Postali — Códigos postales de México 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/postali-codigos-postales\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-27 02:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Domain: postali-codigos-postales\n"
+
+#: postali-codigos-postales.php:91
+msgid "Ajustes"
+msgstr ""
+
+#: includes/class-postali-blocks.php:60 includes/class-postali-checkout.php:119 includes/class-postali-checkout.php:121 includes/class-postali-checkout.php:137 includes/class-postali-options.php:87
+msgid "Colonia"
+msgstr ""
+
+#: includes/class-postali-blocks.php:61
+msgid "Colonia (opcional)"
+msgstr ""
+
+#: includes/class-postali-options.php:88
+msgid "Elige tu colonia…"
+msgstr ""
+
+#: includes/class-postali-options.php:89
+msgid "Otra (escribirla a mano)"
+msgstr ""
+
+#: includes/class-postali-options.php:90
+msgid "Buscando código postal…"
+msgstr ""
+
+#: includes/class-postali-options.php:91
+msgid "No encontramos ese código postal. Revisa los dígitos o llena la dirección a mano."
+msgstr ""
+
+#: includes/class-postali-options.php:92
+msgid "No pudimos consultar el código postal. Puedes llenar la dirección a mano."
+msgstr ""
+
+#. translators: Texto del enlace de crédito opcional.
+#: includes/class-postali-options.php:94
+msgid "Datos: Postali"
+msgstr ""
+
+#: includes/class-postali-settings.php:24
+msgid "Postali"
+msgstr ""
+
+#: includes/class-postali-settings.php:36
+msgid "Códigos postales de México"
+msgstr ""
+
+#: includes/class-postali-settings.php:38
+msgid "Cuando el cliente escribe un código postal de 5 dígitos con país México, se consultan el estado, el municipio y las colonias en la API pública de Postali (datos de SEPOMEX). Si la consulta falla, el cliente sigue pudiendo llenar la dirección a mano."
+msgstr ""
+
+#: includes/class-postali-settings.php:42
+msgid "Autocompletado"
+msgstr ""
+
+#: includes/class-postali-settings.php:43
+msgid "Activar el autocompletado por código postal en el checkout"
+msgstr ""
+
+#: includes/class-postali-settings.php:49
+msgid "Campos a llenar"
+msgstr ""
+
+#: includes/class-postali-settings.php:50
+msgid "Estado"
+msgstr ""
+
+#: includes/class-postali-settings.php:57
+msgid "Ciudad (municipio o alcaldía)"
+msgstr ""
+
+#: includes/class-postali-settings.php:64
+msgid "Colonia (lista desplegable con las colonias del código postal)"
+msgstr ""
+
+#: includes/class-postali-settings.php:71
+msgid "Qué poner en \"Ciudad\""
+msgstr ""
+
+#: includes/class-postali-settings.php:77
+msgid "Municipio o alcaldía (p. ej. \"Cuauhtémoc\")"
+msgstr ""
+
+#: includes/class-postali-settings.php:78
+msgid "Ciudad de SEPOMEX si existe (p. ej. \"Ciudad de México\"); si no, el municipio"
+msgstr ""
+
+#: includes/class-postali-settings.php:80
+msgid "Las paqueterías mexicanas suelen pedir el municipio. La ciudad de SEPOMEX no existe en zonas rurales; en ese caso se usa el municipio."
+msgstr ""
+
+#: includes/class-postali-settings.php:83
+msgid "Dónde guardar la colonia"
+msgstr ""
+
+#: includes/class-postali-settings.php:88
+msgid "En \"Dirección línea 2\" (recomendado: aparece en correos, etiquetas de envío y exportaciones sin configurar nada)"
+msgstr ""
+
+#: includes/class-postali-settings.php:89
+msgid "En un campo propio \"Colonia\" (guardado como campo adicional del pedido)"
+msgstr ""
+
+#: includes/class-postali-settings.php:91
+msgid "Con la opción recomendada, \"Dirección línea 1\" queda para calle y número, y \"Dirección línea 2\" para la colonia, que es la convención más común en tiendas mexicanas."
+msgstr ""
+
+#: includes/class-postali-settings.php:94
+msgid "Orden de los campos"
+msgstr ""
+
+#: includes/class-postali-settings.php:95
+msgid "Para México, mostrar el código postal antes de la calle y la colonia"
+msgstr ""
+
+#: includes/class-postali-settings.php:101
+msgid "Validación en el servidor"
+msgstr ""
+
+#: includes/class-postali-settings.php:102
+msgid "Al confirmar el pedido, rechazar códigos postales que no existen o que no corresponden al estado elegido"
+msgstr ""
+
+#: includes/class-postali-settings.php:106
+msgid "Consulta la API desde tu servidor (con caché de una semana). Si la API no responde, el pedido se acepta igual."
+msgstr ""
+
+#: includes/class-postali-settings.php:109
+msgid "Crédito"
+msgstr ""
+
+#: includes/class-postali-settings.php:110
+msgid "Mostrar un enlace pequeño \"Datos: Postali\" (a postali.app) debajo del campo de colonia en el checkout"
+msgstr ""
+
+#: includes/class-postali-settings.php:114
+msgid "Opcional y desactivado por defecto. El plugin funciona igual sin él."
+msgstr ""
+
+#. translators: 1: CP, 2: "facturación" o "envío".
+#: includes/class-postali-validation.php:50
+#, php-format
+msgid "El código postal %1$s de la dirección de %2$s no existe en el catálogo de SEPOMEX. Revísalo, por favor."
+msgstr ""
+
+#. translators: 1: CP, 2: nombre del estado, 3: "facturación" o "envío".
+#: includes/class-postali-validation.php:57
+#, php-format
+msgid "El código postal %1$s pertenece a %2$s. Revisa el estado de la dirección de %3$s."
+msgstr ""
+
+#: includes/class-postali-validation.php:71 includes/class-postali-validation.php:101
+msgid "facturación"
+msgstr ""
+
+#: includes/class-postali-validation.php:73 includes/class-postali-validation.php:102
+msgid "envío"
+msgstr ""
+
