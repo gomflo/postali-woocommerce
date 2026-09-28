@@ -103,6 +103,12 @@ The Postali API also has data for Colombia and Spain, but this version of the pl
 
 Yes. The `postali_cp_api_base` PHP filter changes the base URL for both the browser lookups and the server-side validation.
 
+== Screenshots ==
+
+1. Block checkout: typing the postal code fills the state and city, and the colonia becomes a dropdown with every colonia for that postal code.
+2. Classic checkout: a postal code with a single colonia selects it automatically. The postal code field is shown before the street for Mexico.
+3. Settings under WooCommerce > Settings > Postali.
+
 == Changelog ==
 
 = 1.0.0 =

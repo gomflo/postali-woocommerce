@@ -100,6 +100,12 @@ La API de Postali también tiene datos de Colombia y España, pero esta versión
 
 Sí, con el filtro `postali_cp_api_base` (en PHP) cambias la URL base, tanto para el navegador como para la validación en servidor.
 
+== Screenshots ==
+
+1. Checkout de bloques: al escribir el código postal se llenan el estado y la ciudad, y la colonia se vuelve una lista con todas las colonias de ese código postal.
+2. Checkout clásico: si el código postal tiene una sola colonia, se elige sola. En México el código postal aparece antes de la calle.
+3. Ajustes en WooCommerce > Ajustes > Postali.
+
 == Changelog ==
 
 = 1.0.0 =
