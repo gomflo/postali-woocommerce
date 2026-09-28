@@ -1,5 +1,5 @@
 === Postali — Códigos postales de México ===
-Contributors: CHANGE-ME-wordpress-org-username
+Contributors: gomflo
 Tags: woocommerce, codigo postal, mexico, checkout, sepomex
 Requires at least: 6.5
 Tested up to: 7.1
